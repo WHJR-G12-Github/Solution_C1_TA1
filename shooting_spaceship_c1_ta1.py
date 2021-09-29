@@ -24,7 +24,7 @@ BLUE=(0,0,255)
 player=pygame.Rect(200,200,30,30)
 
 # Drawing the 'player' rectangle in the screen in BLUE color
-pygame.draw.rect(screen,BLUE,Blue_rect)
+pygame.draw.rect(screen,BLUE,player)
 
 # Updating the screen after adding the background image and drawing the rectangle
 pygame.display.update()
