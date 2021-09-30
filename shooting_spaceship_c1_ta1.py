@@ -16,15 +16,5 @@ background_image = pygame.image.load("bg2.jpg").convert()
 # Displaying the 'background_image' at the location [0,0]
 screen.blit(background_image,[0,0])
 
-# Creating BLUE color using RGB combinations and naming it as 'BLUE'
-BLUE=(0,0,255)
-
-# Creating a rectangle at the coordinates of 200,200 with width and height as 30
-# Name the rectangle as 'player'
-player=pygame.Rect(200,200,30,30)
-
-# Drawing the 'player' rectangle on the screen in BLUE color
-pygame.draw.rect(screen,BLUE,player)
-
 # Updating the screen after adding the background image and drawing the rectangle
 pygame.display.update()
